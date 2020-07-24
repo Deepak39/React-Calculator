@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+body{
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*-----------------
+  Light Theme
+------------------*/
+.bgcolor-light{
+  background-color: #f2f2f2;
+}
+.neumorph-light{
+  box-shadow: 
+  -3px -3px 5px 2px rgba(255, 255, 255, 0.6),
+  3px 3px 5px 2px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.dn-shadow-light{
+  box-shadow: 5px 5px 5px 1px rgba(255, 255, 255, 0.8);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*--------------------------
+  Dark Theme
+---------------------------*/
+.bgcolor-dark{
+  background-color: #f2f2f2;
+}
+.neumorph-dark{
+  box-shadow: 
+  -5px -5px 10px 2px rgba(255,255,255,0.8),
+  5px 5px 10px 2px rgba(0,0,0,0.2);
+  border: none;
+}
+.dn-shadow-dark{
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.8);
 }
 
-.App-header {
-  background-color: #282c34;
+/*-----------------------------
+  CSS of other classes used
+------------------------------*/
+.parent {
+  padding: auto;
+  margin: auto;
+  width: 100%;
+  height: 100%;
   min-height: 100vh;
+
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calculator{
+  margin: auto;
+  width: 350px;
+  height: 500px;
 }
