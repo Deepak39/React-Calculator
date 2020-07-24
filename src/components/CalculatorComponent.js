@@ -3,21 +3,20 @@ import CalculatorHeader from './CalculatorHeaderComponent';
 import CalculatorBody from './CalculatorBodyComponent';
 import CalculatorScreen from './CalculatorScreenComponent';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {}
-  }
+const Calculator = (props) => {
 
-  render(){
-    return (
-      <div className="bgcolor-light neumorph-light calculator">
-        <CalculatorHeader />
-        <CalculatorScreen />
-        <CalculatorBody />
+  const bgColor = props.isDarkTheme ? 'bgcolor-dark' : 'bgcolor-light';
+  const neumorph = props.isDarkTheme ? 'neumorph-dark' : 'neumorph-light';
+
+  return (
+    <div className={`container ${bgColor}`}>
+      <div className={`calculator ${bgColor} ${neumorph}`}>
+        <CalculatorHeader {...props}/>
+        <CalculatorScreen isDarkTheme={props.isDarkTheme} />
+        <CalculatorBody isDarkTheme={props.isDarkTheme} />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default Calculator;
