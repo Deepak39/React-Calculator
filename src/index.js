@@ -24,7 +24,7 @@ Author: Deepak39
 GitHub: https://github.com/Deepak39/React-Calculator 
 ***
 
-*** Follow us on ****
+*** Follow me on ****
 instagram: @yadav_deepakk
 
 -----------------------*/
