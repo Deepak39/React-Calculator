@@ -20,3 +20,15 @@ const Calculator = (props) => {
 }
 
 export default Calculator;
+
+
+/*----------------------
+*** 
+Author: Deepak39
+GitHub: https://github.com/Deepak39/React-Calculator 
+***
+
+*** Follow us on ****
+instagram: @yadav_deepakk
+
+-----------------------*/

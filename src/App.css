@@ -53,11 +53,16 @@ body{
   height: 520px;
 }
 .header{ height: 45px; }
-.header img{ margin: 10px 0px auto 16px; }
+.header img{ 
+  margin: 10px 0px auto 16px; 
+  cursor: pointer;
+}
 .header img:nth-child(2){
   margin-left: 240px;
-  transform: rotate(-36deg);
+  transform: rotate(0deg);
 }
+
+
 /*----------------------
 *** 
 Author: Deepak39

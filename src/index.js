@@ -15,3 +15,16 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+
+/*----------------------
+*** 
+Author: Deepak39
+GitHub: https://github.com/Deepak39/React-Calculator 
+***
+
+*** Follow us on ****
+instagram: @yadav_deepakk
+
+-----------------------*/
