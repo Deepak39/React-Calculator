@@ -10,7 +10,7 @@ const CalculatorHeader = ({ isDarkTheme, onClick }) => {
   return (
     <div className={`header ${bgColor} ${downShadow}`}>
       <img height="19px" width="25px" src={moreIcon} alt="" />
-      <img height="23px" width="23px" src={themeChangerIcon} alt="" onClick={() => onClick(!isDarkTheme)}/>
+      <img height="19px" width="19px" src={themeChangerIcon} alt="" onClick={() => onClick(!isDarkTheme)}/>
     </div>
   );
 }

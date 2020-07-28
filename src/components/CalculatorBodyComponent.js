@@ -1,16 +1,25 @@
 import React from 'react';
+import CalcButton from './CalBtnComponent';
 
-class CalculatorBody extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {}
-  }
+const CalculatorBody = ({isDarkTheme}) => {
+  
+  // const btns = [['7', '8', '9', '/'], ['4', '5', '6', '*'], ['1', '2', '3', '-'], ['0', '.', '%', '+']];
+  // const btnCol = ['C', 'S', 'S', '='];
 
-  render(){
-    return (
-      null
-    );
-  }
+  return (
+    <div className="btn-container">
+      <div className="btn-rows">
+        <div className="row"></div>
+        <div className="row"></div>
+        <div className="row"></div>
+        <div className="row"></div>
+      </div>
+      <div>
+        <div></div>
+      </div>
+    </div>
+  );
+
 }
 
 export default CalculatorBody;

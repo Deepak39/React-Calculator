@@ -7,10 +7,10 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isDarkTheme: true }
-    this.changeTheme = this.changeTheme.bind(this);
+    this.handleThemeChange = this.handleThemeChange.bind(this);
   }
 
-  changeTheme(isDark){
+  handleThemeChange(isDark){
     this.setState({isDarkTheme: isDark});
   }
 
@@ -18,7 +18,7 @@ class App extends React.Component {
     return (
       <Calculator 
         isDarkTheme={this.state.isDarkTheme} 
-        onClick={(isDark) => this.changeTheme(isDark)}
+        onClick={(isDark) => this.handleThemeChange(isDark)}
       />
     );
   }

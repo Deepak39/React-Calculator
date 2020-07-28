@@ -1,15 +1,10 @@
 import React from 'react';
 
-class CalcButton extends React.Component {
-  constructor(props) {
-    this.state = {}
-  }
+const CalcButton = ({isDarkTheme, text}) => {
 
-  render(){
-    return (
-      <div>This is some text.!!!</div>
-    );
-  }
+  const neumorph = isDarkTheme ? 'neumorph-btn-dark' : 'neumorph-btn-light';
+
+  return <span className={`cal-btn ${neumorph}`}> {text} </span>;
 }
 
 export default CalcButton;

@@ -1,16 +1,17 @@
 import React from 'react';
 
-class CalculatorScreen extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {}
-  }
+const CalculatorScreen = ({isDarkTheme}) => {
 
-  render(){
-    return (
-      null
-    );
-  }
+  const downShadow = isDarkTheme ? "dn-shadow-dark" : "dn-shadow-light";
+
+  return (
+    <div className={`screen ${downShadow}`}>
+    {/* TODO */}
+    {/* <div id='expression'>251</div>
+    <div id='answer'>512</div> */}
+    </div>
+  );
+
 }
 
 export default CalculatorScreen;
