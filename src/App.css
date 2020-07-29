@@ -8,6 +8,7 @@ body{
 ------------------*/
 .bgcolor-light{ background-color: #f2f2f2; }
 .dn-shadow-light{ box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.04); }
+.light-btn-color { color: black;}
 .neumorph-light{
   box-shadow: 
   -2px -2px 3px 1px rgba(255, 255, 255, 0.5),
@@ -26,6 +27,7 @@ body{
 ---------------------------*/
 .bgcolor-dark{ background-color: #333333; }
 .dn-shadow-dark{ box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.15); }
+.dark-btn-color{ color: white; }
 .neumorph-dark{
   box-shadow: 
   -2px -2px 3px 1px rgba( 0, 0, 0,0.2),
@@ -75,28 +77,22 @@ body{
   width: 100%
 }
 .btn-rows{
-  background-color: pink;
-  width: 80%;
   height: 100%;
-  margin: 1px 2px;
-  float: left;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
+  width: 100%;
 }
 .row{
-  margin-top: 10px;
-  height: 5px;
+  height: 50px;
   width: 100%;
-  background-color: red;
-  display: inline-block;
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .cal-btn{
-  float: left;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  color: #fff;
   cursor: pointer;
 
   display: flex;
